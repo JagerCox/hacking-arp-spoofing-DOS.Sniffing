@@ -19,7 +19,7 @@ __version__ = "0.1"
 __python_version__ = "2.7"
 __email__ = "jagercox@gmail.com"
 
-# sudo python arp-spoof.py 0 <interface> <gateway> <victim>
+# sudo python arp-spoofing.py <Number 0=DoS, 1=Redirect traffic> <interface> <gateway> <victim>
 
 def on_promiscuo():
     pro = "echo 1 > /proc/sys/net/ipv4/ip_forward"
